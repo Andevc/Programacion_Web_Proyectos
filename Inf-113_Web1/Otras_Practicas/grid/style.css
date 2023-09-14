@@ -1,0 +1,26 @@
+body{
+    background-color: #050108;
+}
+.cards{
+    margin: 50px ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+
+.card{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card1{
+    background-image: url(iron-man-y-spiderman_1220x2160_xtrafondos.com.jpg);
+}
+
+.card2{
+    background-image: url(diseno-de-los-vengadores_1920x1080_xtrafondos.com.jpg);
+}
+.card3{
+    background-image: url(capitan-america-lanzando-escudo_1630x2880_xtrafondos.com.jpg);
+}

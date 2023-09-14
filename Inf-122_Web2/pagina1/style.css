@@ -1,0 +1,210 @@
+
+
+@font-face {
+     font-family: 'Telma-Medium';
+     src: url(fonts/Telma-Medium.woff2) format(woff2);
+}
+:root{
+     --font-tittle: 'Telma-Medium',sans-serif;
+     --color1: #fff2f2;
+     --color2: #e02235;
+     --color3: #373537;
+}
+*{
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     height: 100vh;
+     width: 100%;
+     font-family: 'Poppins', sans-serif;
+}
+
+nav{
+     height: 70px;
+     display: flex;
+     background-color: var(--color1);
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     font-family: var(--font-tittle);
+     letter-spacing: 3px;
+}
+.nav-content h1{
+     color: var(--color3);
+     font-size: 2em;
+     letter-spacing: 10px;
+     text-align: center;
+     width: 400px;
+     height: 100%;
+}
+.nav-content h1 span{
+     color: var(--color2);
+     font-size: 1.5em;
+}
+.nav-content  svg{
+     stroke: var(--color3);
+     height: 30px;
+     width: 30px;
+}
+.nav-content svg:hover{
+     stroke: var(--color2);
+     cursor: pointer;
+}
+.nav-content-icons{
+     width: 150px;
+     height: 80%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     
+}
+.nav-content-icons div:hover{
+     border-bottom: 1px solid var(--color2) ;
+     transition: .2s;
+}
+
+header{
+     background: linear-gradient( #172b3555,#172b3555), url(Images/img0-jonathan-taylor-2q8P.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 450px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+.header-content{
+     padding: 30px;
+     background-color: #ffffff11;
+     width: 450px;
+     height: 250px;
+     margin-left: 120px;
+     border-radius: 3em;
+     box-shadow: 3px 3px 15px var(--color3);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+header h1{
+     font-family: var(--font-tittle);
+     font-size: 3em;
+     color: var(--color1);
+     letter-spacing: 10px;
+     text-shadow: 1px 1px 5px var(--color3);
+}
+
+.btn{
+     background: var(--color2);
+     border: none;
+     border-radius: 2em;
+     color: white;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     font-weight: bold;
+     font-size: 15px;
+     padding: 10px 35px;
+}
+
+.btn:hover{
+     cursor: pointer;
+     background-color: var(--color3);
+}
+
+main{
+     width: 100%;
+     padding: 50px ;
+     background-color: var(--color1);
+}
+
+.main-products{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;    
+     height: 650px;
+}
+
+
+
+.main-products h1{
+     font-family: var(--font-tittle);
+     color: var(--color3);
+     font-size: 2em;
+     letter-spacing: 10px;    
+}
+.main-products h1 span{
+     color: var(--color2);
+     font-size: 1.3em;
+}
+
+.main-products-images{
+     
+     width: 100%;
+     height: 80%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.card-products-imgs img{
+     width: 300px;
+     height: 400px;
+     border-radius: 2.5em;
+     box-shadow: 0 0 15px #00000088;
+     border: 5px solid white;     
+}
+
+.card-products-imgs p{
+     text-align: center;
+     font-size: 1em;
+     font-weight: bold;
+     padding: 5px 10px;
+     background-color: var(--color2);
+     color: var(--color1);
+     letter-spacing: 5px;
+     border-radius: 3em;
+     margin-top: 10px;
+     box-shadow: 0 0 15px #00000088;
+}
+
+.main-suscribe{
+     height: 50px;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;    
+}
+label{
+     margin: 0 20px;
+     font-size: 1em;
+     font-weight: bold;
+     letter-spacing: 4px;
+}
+
+#e-mail{  
+     height: 80%;
+     width: 450px;
+     margin: 0 20px;
+     padding-left: 10px;
+     border-radius: 2em ;
+     border: 1px solid #00000066;
+     
+}
+
+footer{
+     background: var(--color1);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 50px 150px;
+}
+
+.footer-phone{
+     display: flex;
+}
+

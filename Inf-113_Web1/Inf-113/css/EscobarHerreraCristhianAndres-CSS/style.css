@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root{
+    --color1 : #151515;
+    --color2 : #94242d;
+    --color3 : #fbfcfd;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Patrick Hand', cursive;
+}
+
+header{   
+
+    width: 100%;
+    height: 100px;
+    background-color: var(--color2);
+    font-family: 'Bangers', cursive;
+    color: var(--color3);    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 5px;
+    
+    
+}
+
+
+
+.barra-nav{
+    
+    background: var(--color2);
+    width: 50%;
+    height: 50px;   
+}
+.barra-nav ul{
+    
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.barra-nav ul a{
+    text-transform: uppercase;
+    /* text-shadow: 1px 1px var(--color1); */
+    
+    color: var(--color3);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.barra-nav ul a:hover{
+    color: var(--color1);
+    
+    
+    transition: all .2s ;
+    
+}
+
+
+.content{
+    background: var(--color1);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;   
+}
+.menu{
+    position: sticky;
+    top: 50px;
+    height: 100%;
+    margin: 50px 10px 0 5px;
+    text-align: center;
+}
+.menu h2{
+    color: var(--color2);
+    padding: 5px 15px;
+    letter-spacing: 5px;
+}
+.menu a{
+    color: var(--color3);
+    text-decoration: none;
+    line-height: 3em;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.menu a:hover{
+    color: var(--color2);
+    transition: all .2s;
+}
+
+.contenido{
+    width: 80%;
+    margin: 30px 0;
+    padding: 10px 35px;
+    color: var(--color3);
+}
+
+.contenido h2, .contenido h3{
+    color: var(--color2);
+    letter-spacing: 3px;
+    line-height: 2em;
+    
+}
+.contenido ul{
+    list-style: none;
+}
+
+.picture{    
+    height: 50px;
+    filter: drop-shadow(3px 3px var(--color2));
+}
+.picture:hover{
+    filter: drop-shadow(3px 3px var(--color3));
+}
+
+.enlaces-externos{
+    
+    position: sticky;
+    top: 50px;
+    bottom: 50px;
+    width: 100px;
+    text-align: center;
+    
+    align-self: center;
+}
+
+.enlaces-externos li{
+    list-style: none;
+    margin-top: 50px;
+    
+    /* line-height: 5em; */
+}
+.enlaces-externos img{
+    width: 30px;
+    
+}
+
+.foot{
+    background: var(--color1);
+    color: var(--color3);
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+

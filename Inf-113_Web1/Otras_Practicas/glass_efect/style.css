@@ -1,0 +1,32 @@
+img{
+    border-radius: 20px;
+}
+
+figure.card{
+    display: grid;
+    grid-template:minmax(0, 1fr)/ minmax(0,1fr);
+    grid-template-areas: "stack";
+}
+
+figure.card>img{
+    grid-area: stack;
+    object-fit: cover;
+    place-self: stretch;
+    
+}
+
+figure.card>figcaption{
+    border-radius: 0 0 20px 20px;
+
+    grid-area: stack;
+    align-self: flex-end;
+    justify-self: stretch;
+
+    background-color: #27273980;
+    color: white;
+
+    text-align: end;
+    padding: 12px;
+
+    backdrop-filter: blur(6px);
+}

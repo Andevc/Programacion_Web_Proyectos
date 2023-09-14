@@ -1,0 +1,10 @@
+/* Efecto Glich */
+
+body{
+    background: rgb(251, 218, 174);
+}
+h1{
+    font-size: 80px;
+    text-shadow: red -2px 0, blue 2px 0; 
+    font-family: 'Qwigley', cursive;
+}

@@ -1,0 +1,88 @@
+/* ========================================= */
+/* Fondo*/
+/* ========================================= */
+html{
+    height: 100%;
+}
+body{
+    background: rgb(46, 45, 45);
+    
+}sdkf
+fieldset{
+    box-shadow: -5px 5px 20px rgb(0, 0, 0,.5);
+    border: 0;
+    /* background: linear-gradient(25deg,rgb(57, 57, 57),rgb(170, 170, 170)); */
+    background-color: #17181f;
+    width: 50vw; 
+    margin : 10vw 25vw;    
+    padding: 20px;
+}
+
+label{
+    font-weight: bold ;
+    color: #fd794f;
+    padding: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+input{
+    outline: none;
+    color: #fd794f;
+    background: transparent;
+    border: none;
+    margin: 0px 5px;
+    border-bottom: 1px solid #fd794f;
+}
+/* ========================================= */
+/* Inputs*/
+/* ========================================= */
+#nombre{
+    width: 50%;
+}
+#dni{
+    width: 20%;
+}
+#ncuenta{
+    width: 35%;
+}
+#tel{
+    width: 15%;
+}
+#direc{
+    width: 80%;
+}
+
+#dest{
+
+    width: 80%;
+    height: 30px;
+}
+#pedido{
+
+    width: 80%;
+    height: 30px;
+} 
+/* ========================================= */
+/* Botones de envio y restablecer */
+/* ========================================= */
+.botones{
+    text-align: center;
+}
+.botones input{
+    
+    background-color: rgb(0, 0, 0, .2);
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: -1px 0 3px black;
+}
+.botones input:hover{
+    background-color: rgb(255, 255, 255,.7);
+    color: black;
+    box-shadow: -1px 0 3px black;
+}
+/* ========================================= */

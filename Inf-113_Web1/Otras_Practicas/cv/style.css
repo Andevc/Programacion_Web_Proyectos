@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    background-color: slateblue;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+h1{
+    display: inline-block;
+    width: 400px;
+}
+p{
+    display: inline-block;
+    width: 400px;
+
+}
+
+.ti{
+    color: black;
+    background-color: crimson;
+    text-align: center;
+    padding: 10px;
+}
+
+.space{
+    width: 960px;
+    height: 200px;
+    /* background-color: red; */
+    margin: 20px auto;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 700;
+    
+}

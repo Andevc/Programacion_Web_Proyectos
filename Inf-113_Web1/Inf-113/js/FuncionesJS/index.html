@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANTILLA</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/funciones.js"></script>
+</head>
+
+<body>
+    <div class="contenedor-vertical">
+        <header>
+            <img src="" alt="COLOCAR LOGOTIPO">
+            <div class="titular">
+                NOMBRE COMPLETO <br>
+                CI:
+            </div>
+        </header>
+        <nav class="menu-horizontal"></nav>
+
+
+        <form action="" method="post" name="formulario">
+            <div class="contenedor-horizontal">
+                <nav class="menu-vertical">
+                    <input type="button" name="fact" onclick="factorial();" value="1. FACTORIAL">
+                    <input type="button" name="factSerie" onclick="serieFactorial();" value="1. FACTORIAL SERIE">
+                    <input type="button" name="fibo" value="2. FIBONACCI" onclick="fibonacci();">
+                    <input type="button" name="serie1" value="3. SERIE BINARIA" onclick="serieBinaria();">
+
+                    <input type="button" name="serie2" value="4. SERIE BINARIA 2" onclick="serieBinaria2();">
+                </nav>
+
+                <main>
+                    <label for="resultado">ENTRADA DE DATOS (Ingresa un numero)</label>
+                    <input type="text" name="entrada" value="">
+
+                    <label for="resultado">RESULTADO</label>
+                    <input type="text" name="resultado" size="auto">
+                </main>
+
+                <aside>
+                    <div class="calculadora">
+                        <label for="entrada1">NUMERO 1</label>
+                        <input type="text" name="entrada1" value="">
+                        <label for="entrada2">NUMERO 2</label>
+                        <input type="text" name="entrada2" value="">
+                        <div class="botones-calculadora">
+                            <input type="button" name="s" onclick="suma();" value="+">
+                            <input type="button" name="r" onclick="resta();" value="-">
+                            <input type="button" name="m" onclick="multiplicacion();" value="*">
+                            <input type="button" name="d" onclick="division();" value="/">
+                        </div>
+                        <input type="text" name="salida" size="auto">
+                    </div>
+                </aside>
+            </div>
+        </form>
+
+
+        <footer></footer>
+    </div>
+
+    <div class="contenedor-flotante">
+        <nav>
+            
+        </nav>
+    </div>
+
+
+</body>
+
+</html>

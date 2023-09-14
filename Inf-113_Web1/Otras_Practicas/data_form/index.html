@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de datos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required="true">
+            <label for="dni">DNI:</label>
+            <input type="text" name="dni" id="dni"required="true"><br><br>
+            <label for="ncuenta">Nº de cuenta: </label>
+            <input type="password" name="ncuenta" id="ncuenta" maxlength="20" required="true">
+            <label for="tel">Nº de teléfono: </label>
+            <input type="tel" name="telefono" id="tel" required="true"><br><br>
+            <label for="direc">Dirección: </label>
+            <input type="text" name="direccion" id="direc" required="true"><br><br>
+            <label for="dest">Destinatario: </label>
+            <input type="text" name="destino" id="dest" required="true"><br><br>
+            <label for="pedido">Pedido: </label>
+            <input type="text" name="pedido" id="pedido" required="true"><br><br>
+            <div class="botones">
+                <input type="reset" value="Restablecer">
+                <input type="submit" value="enviar">
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>

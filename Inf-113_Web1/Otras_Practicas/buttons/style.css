@@ -1,0 +1,79 @@
+:root{
+
+    --border-radius: 40px
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;    
+    
+}
+
+.button{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    
+    background-color: white;
+}
+
+
+.button1{
+    
+    color: black;
+    text-transform: uppercase;
+    background: linear-gradient(to top,#ffc524,#fbf59d);
+    border-top: 1px solid white;
+    border-radius: var(--border-radius);
+    box-shadow:inset 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+
+}
+
+.button2{
+    color:white;
+    background: rgb(43, 46, 226);
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+
+.button3{
+    color: white;
+    border-radius: 10px ;
+    background-color: rgba(0, 0, 0, 0.753);
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.button3::after{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* bottom: -10px;
+    right: -5px; */
+    background: linear-gradient(to bottom right,#4524ff,#e728b8);
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.button3:hover::after{
+    filter: blur(20px);
+}

@@ -1,0 +1,101 @@
+:root{
+    --color1: #f35c4e;
+    --color2: #e5dcd8;
+    --color3: #353333;
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #353333;
+    max-width: 1200px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.head{
+
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    background: var(--color3);
+    align-items: center;
+    
+}
+
+.logo{
+    width: 30%;
+    
+    
+    
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    color: var(--color1);
+    text-align: center;
+
+}
+
+.logo span{
+    color: var(--color2);
+}
+
+.logo h1:hover{
+    cursor: pointer;
+    color: var(--color2);
+    text-decoration: underline solid var(--color1);
+    transition: .5s;
+}
+
+.menu{
+    width: 70%;
+}
+
+.menu ul {
+    
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+
+}
+
+.menu li a{
+    color: var(--color2);
+    text-decoration: none;
+    
+    animation: nose 2s timing-function delay iteration-count direction fill-mode;
+    
+}
+
+.menu li a:hover{
+    color: var(--color1);
+    transition: .5s ;   
+    
+}
+
+
+/* .button{
+    margin: 50px 200px;
+    padding: 10px 20px;
+    background-color: var(--color3);
+    border: none;
+    border-radius: 10px;
+    color: var(--color1);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-shadow: 0 5px 10px var(--color1);
+}
+
+.button:active{
+
+    box-shadow: 0  5px 10px var(--color2);
+    color: var(--color2);
+    cursor: pointer;
+
+} */

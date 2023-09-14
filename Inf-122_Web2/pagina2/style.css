@@ -1,0 +1,224 @@
+@font-face {
+     font-family: 'Kalam';
+     src: url(fonts/Kalam-Regular.woff2) format(woff2);
+}
+:root{
+     --font-tittle: 'Kalam',sans-serif;
+     --color1: #feffff;
+     --color3: #535663;
+     --color2: #54362b;
+}
+*{
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     height: 100vh;
+     width: 100%;
+     font-family: 'Roboto Mono', monospace;
+}
+nav{
+     width: 100%;
+     height: 70px;
+     display: flex;
+     background-color: var(--color1);
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 100px;
+     
+     
+}
+.nav-list-pages{
+     width: 50%;
+}
+.nav-list-pages ul{
+     padding: 0;
+     width: 100%;
+     height: 40px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+}
+.nav-list-pages ul li {
+     align-self: center;
+     height: 40px;
+     width: 100px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;    
+}
+.nav-list-pages ul li a{
+     width: 100%;
+     font-family: var(--font-tittle);
+     text-align: center;
+     text-decoration: none;
+     color: var(--color3);
+     font-weight: bold;
+}
+
+.nav-list-pages ul li a:hover{
+     border-bottom: 1px solid var(--color2);
+     color: var(--color2);
+     transition: .3s;
+}
+.nav-content  svg{
+     stroke: var(--color3);
+     height: 20px;
+     width: 20px;
+}
+.nav-content svg:hover{
+     stroke: var(--color2);
+     cursor: pointer;
+}
+.nav-content-icons{
+     width: 150px;
+     height: 80%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     
+}
+.nav-content-icons div:hover{
+     border-bottom: 1px solid var(--color2) ;
+     transition: .2s;
+}
+
+.header-content{
+     background: linear-gradient(#00000088, #00000088), url(Images/img01-jeff-hopper-iCtJF-A5hvs-unsplash.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 500px;
+     color: var(--color1);
+     font-family: var(--font-tittle);
+     
+     text-shadow: 1px 1px 5px black;
+     padding: 20px 100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.header-content h1{
+     font-size: 2.5em;
+}
+.header-content p{
+     font-size: 1.5em;
+}
+.connect-sm{
+     margin-top: 50px ;
+     width: 500px;
+     height: 300px;
+     background-color: #00000088;
+     padding: 20px 30px;
+     border-radius: 3em;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     text-align: center;
+}
+
+.connect-sm svg{
+     stroke: var(--color1);
+}
+.connect-sm p{
+     color: var(--color1);
+}
+
+.btn{
+     background: var(--color2);
+     border: none;
+     border-radius: 2em;
+     color: white;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     font-weight: bold;
+     font-size: 15px;
+     padding: 10px 35px;
+}
+
+.btn:hover{
+     cursor: pointer;
+     background-color: var(--color3);
+}
+
+main{
+     width: 100%;
+     padding: 50px ;
+     background-color: var(--color1);
+}
+
+.main-galery{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;    
+     
+}
+
+.main-galery h1{
+     font-family: var(--font-tittle);
+     color: var(--color3);
+     font-size: 2em;
+     letter-spacing: 10px;    
+}
+.main-galery h1 span{
+     color: var(--color2);
+     font-size: 1.3em;
+}
+.main-galery-images{
+     margin: 2rem 0;
+     width: 100%;
+     height: 80%;
+     display: grid; 
+     column-gap: 1.5em;
+     row-gap: 2em;
+     grid-template-columns: repeat(3,300px);
+     place-content: center;
+
+}
+
+.card-galery-imgs img{
+     object-fit: cover;
+     width: 300px;
+     height: 300px;
+     box-shadow: 0 0 15px #00000088;
+     border: 10px solid white;     
+     border-bottom: 50px solid white;
+}
+
+label{
+     margin: 0 20px;
+     font-size: 1em;
+     font-weight: bold;
+     letter-spacing: 4px;
+}
+
+#e-mail{  
+     height: 80%;
+     width: 450px;
+     margin: 0 20px;
+     padding-left: 10px;
+     border-radius: 2em ;
+     border: 1px solid #00000066;
+     
+}
+
+footer{
+     background: var(--color1);
+     color: var(--color3);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 50px 150px;
+}
+
+.footer-phone{
+     display: flex;
+}
